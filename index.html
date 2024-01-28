@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="header-wrap">
+				<div class="logo">MAIN EVNETS</div>
+				<ul class="nav">
+					<li class="nav_item">
+						<a href="./nav.html#home">Home</a>
+					</li>
+					<li class="nav_item">
+						<a href="./nav.html#services">Services</a>
+					</li>
+					<li class="nav_item">
+						<a href="./nav.html#about">About</a>
+					</li>
+					<li class="nav_item">
+						<a href="./nav.html#gallery">Gallery</a>
+					</li>
+					<li class="nav_item">
+						<a href="./nav.html#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="bg"></div>
+		<div class="lan_desc">
+			<p>Creating</p>
+			<p>Unforgettable</p>
+			<p>Memories</p>
+		</div>
+		<div class="content">
+			<div class="intro">
+				<div class="intro_l">
+					<h2>SERVICES</h2>
+					<div>Turn the dream into a reallty</div>
+					<div class="btn">DISCOVER</div>
+				</div>
+				<div class="intro_r"></div>
+			</div>
+			<div class="ms">
+				<svg t="1705988347429" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4368" width="48" height="48"><path d="M828.458667 284.970667C872.405333 331.648 896 384 896 468.864c0 149.333333-104.832 283.178667-257.28 349.354667l-38.101333-58.794667c142.293333-76.970667 170.112-176.853333 181.205333-239.829333-22.912 11.861333-52.906667 16-82.304 13.269333-76.970667-7.125333-137.642667-70.314667-137.642667-148.864a149.333333 149.333333 0 0 1 149.333334-149.333333c45.781333 0 89.557333 20.906667 117.248 50.304z m-426.666667 0C445.738667 331.648 469.333333 384 469.333333 468.864c0 149.333333-104.832 283.178667-257.28 349.354667l-38.101333-58.794667c142.293333-76.970667 170.112-176.853333 181.205333-239.829333-22.912 11.861333-52.906667 16-82.304 13.269333C195.882667 525.738667 135.253333 462.549333 135.253333 384a149.333333 149.333333 0 0 1 149.333334-149.333333c45.781333 0 89.557333 20.906667 117.248 50.304h-0.042667z" p-id="4369"></path></svg>
+				<p>I am a testimonial. Click to edit</p>
+				<p>this text and say something nice</p>
+				<p> about you and your services</p>
+				<p style="margin-top: 30px;color: #a9945c;position: absolute;bottom: -70px;left: 74px;">Jimmy and Janice</p>
+			</div>
+		</div> 
+		<div class="card">
+			<div class="intro" style="display: flex;justify-content: flex-end;">
+				<div class="intro_l">
+					<h2>GALLERY</h2>
+					<div style="font-size: 20px;letter-spacing: 4px;">Unforgettable</div>
+					<div style="font-size: 20px;letter-spacing: 4px;margin-top: 20px;">Memories</div>
+					<div class="btn">DISCOVER</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-item" style="border-right: 1px solid rgba(255,255,255, 0.6);">
+				<p>500 Temple Street</p>
+				<p>San Francisco</p>
+				<p>CA 94155</p>
+			</div>
+			<div class="footer-item" style="border-right: 1px solid rgba(255,255,255, 0.6);">
+				<p>Tel:123-555-1212</p>
+				<p>Fax:123-555-1213</p>
+				<p>info@mainovenis.com</p>
+			</div>
+			<div class="footer-item">
+				<p>2023 by Main Events</p>
+			</div>
+			<div class="footer-item">
+				<div class="btnFooter">BOOK A CONSULTATION</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	const bodyHeight = document.documentElement.clientHeight;
+	const c = document.querySelector('.content')
+	const bg = document.querySelector('.bg')
+	document.documentElement.style.height = bodyHeight + 'px'
+
+	window.onscroll = function() {
+		const scrollTop = document.documentElement.scrollTop;
+		if(scrollTop >= c.offsetTop) {
+			bg.style.backgroundImage = "url(./images/image2.png)"
+		}else{
+			bg.style.backgroundImage = "url(./images/image3.png)"
+		}
+		
+	}
+</script>
+</html>

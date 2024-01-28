@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html{
+	font-family: 'EB Garamond', serif;
+	font-family: 'Public Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.warp{
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 60px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.header-wrap{
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	min-width: 700px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	padding-left: 40px;
+	justify-content: space-between;
+}
+.logo{
+	font-size: 15px;
+	color: #a9945c;
+}
+.nav{
+	display: flex;
+	align-items: center;
+}
+.nav .nav_item{
+	margin-right: 40px;
+}
+.nav .nav_item a{
+	display: block;
+	height: 100%;
+	color: #675934;
+}
+.nav .nav_item:first-child a{
+	color: #a9945c;
+}
+.nav .nav_item a:hover{
+	color: #a9945c;
+}
+.bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url("../images/image3.png") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	top: 0;
+}
+.lan_desc{
+	color: #fff;
+	font-size: 40px;
+	margin-top: 800px;
+	margin-bottom: 1200px;
+	position: relative;
+	z-index: 10;
+}
+.lan_desc p{
+	letter-spacing: 6px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.content{
+	padding: 80px;
+	position: relative;
+	z-index: 100;
+	background-color: #fff;
+	margin:  0 auto;
+}
+.intro{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.intro_l{
+	width: 26% ;
+	min-width: 270px;
+	margin-right: 40px;
+	height: 550px;
+	background: url('../images/flower.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #fff;
+}
+.intro_l h2{
+	margin-top: 130px;
+	margin-bottom: 120px;
+	letter-spacing: 6px;
+}
+.intro_l .btn{
+	height: 44px;
+	width: 240px;
+	border: 1px solid #fff;
+	line-height: 44px;
+	margin: 60px auto 0;
+}
+.intro_r{
+	width: 62%;
+	min-width: 522px;
+	height: 550px;
+	background: url('../images/image1.png') no-repeat;
+	background-size: 100% 100%;
+}
+.ms{
+	width: 322px;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	margin-top: 70px;
+	text-align: center;
+	position: relative;
+}
+svg{
+	width: 36px;
+	height:36px
+}
+.ms p{
+	margin-bottom: 10px;
+}
+.card{
+	position: relative; 
+	z-index: 100;
+	padding: 40px 0;
+}
+.footer{
+	background-color: #a9945c;
+	color: #fff;
+	position: relative;
+	z-index: 1000;
+	display: flex;
+	padding: 40px 100px;
+}
+.footer-item{
+	flex: 1;
+	padding: 0 30px;
+}
+.footer-item p{
+	margin-bottom: 10px;
+}
+.btnFooter{
+	border: 1px solid #fff;
+	width: 240px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 40px;
+	border-right-color: #666;
+	border-bottom-color: #666;
+}
